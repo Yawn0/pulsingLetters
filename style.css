@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap');
+  
+span {
+  font-family: "Hepta Slab";
+  font-size: 5em;
+  animation: 3s infinite variation;
+}
+
+@keyframes variation {
+  0% {
+    font-weight: 1;
+  }
+  50% {
+    font-weight: 900;
+  }
+  100% {
+    font-weight: 1;
+  }
+}
+
+
